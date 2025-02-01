@@ -1,80 +1,51 @@
-<!-- Top heading with shortcut links -->
-<div style="text-align: center; margin-bottom: 30px;">
-  <h1 style="font-size: 36px; font-weight: bold; color: #0F0F0F;">Welcome to My Useful Links! 🌐</h1>
-  <div style="margin-bottom: 30px;">
-    <a href="#social-profiles" style="font-size: 18px; color: #0066cc; text-decoration: none; font-weight: bold;">Social Profiles</a> | 
-    <a href="#color" style="font-size: 18px; color: #0066cc; text-decoration: none; font-weight: bold;">Color</a>
-  </div>
-</div>
+# My Websites List 🌐
 
-<!-- Row with two categories: Social Profiles and Color -->
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+Welcome to my collection of websites that I use and work with, categorized for easy navigation. This list includes resources for Documentation, Colors, Typography, UI Components, Libraries, Blogging, Design, and Work to Explore. Click on the links to explore!
 
-  <!-- Social Profiles Section -->
-  <section id="social-profiles" style="flex: 1 1 45%; padding: 20px;">
-      <h2 style="font-size: 28px; font-weight: bold; color: #0F0F0F;">🌐 Social Profiles 👥</h2>
-      <table style="width: 100%; border-collapse: collapse; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
-          <thead>
-              <tr style="background-color: #F9F7F4;">
-                  <th style="padding: 10px; border: 1px solid #ddd;">Tool/Website Name</th>
-                  <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
-                  <th style="padding: 10px; border: 1px solid #ddd;">Link</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://www.linkedin.com/" target="_blank" style="text-decoration: none; color: #0066cc;">LinkedIn</a></strong></td>
-                  <td style="padding: 10px; border: 1px solid #ddd;">Professional network</td>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://www.linkedin.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
-              </tr>
-              <tr>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://github.com/" target="_blank" style="text-decoration: none; color: #0066cc;">GitHub</a></strong></td>
-                  <td style="padding: 10px; border: 1px solid #ddd;">Code repository</td>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
-              </tr>
-              <tr>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://twitter.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Twitter</a></strong></td>
-                  <td style="padding: 10px; border: 1px solid #ddd;">Networking platform</td>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://twitter.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
-              </tr>
-              <tr>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Facebook</a></strong></td>
-                  <td style="padding: 10px; border: 1px solid #ddd;">Social networking</td>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
-              </tr>
-          </tbody>
-      </table>
-  </section>
+## 🌟 Categories
 
-  <!-- Color Section -->
-  <section id="color" style="flex: 1 1 45%; padding: 20px;">
-      <h2 style="font-size: 28px; font-weight: bold; color: #0F0F0F;">🎨 Color 🌈</h2>
-      <table style="width: 100%; border-collapse: collapse; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
-          <thead>
-              <tr style="background-color: #F9F7F4;">
-                  <th style="padding: 10px; border: 1px solid #ddd;">Tool/Website Name</th>
-                  <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
-                  <th style="padding: 10px; border: 1px solid #ddd;">Link</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://coolors.co/" target="_blank" style="text-decoration: none; color: #0066cc;">Coolors</a></strong></td>
-                  <td style="padding: 10px; border: 1px solid #ddd;">Palette generator</td>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://coolors.co/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
-              </tr>
-              <tr>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://colorhunt.co/" target="_blank" style="text-decoration: none; color: #0066cc;">Color Hunt</a></strong></td>
-                  <td style="padding: 10px; border: 1px solid #ddd;">Color palettes</td>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://colorhunt.co/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
-              </tr>
-              <tr>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://www.materialui.co/colors" target="_blank" style="text-decoration: none; color: #0066cc;">Material UI Colors</a></strong></td>
-                  <td style="padding: 10px; border: 1px solid #ddd;">Material design colors</td>
-                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://www.materialui.co/colors" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
-              </tr>
-          </tbody>
-      </table>
-  </section>
+### 🛠️ Documentation | 🎨 Colors | 🅰️ Typography
+| Website Name         | Link                       | Website Name         | Link                       | Website Name         | Link                       |
+|----------------------|----------------------------|----------------------|----------------------------|----------------------|----------------------------|
+| **MDN Web Docs**     | [MDN Web Docs](https://developer.mozilla.org)   | **Coolors**          | [Coolors](https://coolors.co)  | **Google Fonts**     | [Google Fonts](https://fonts.google.com) |
+| **W3Schools**        | [W3Schools](https://www.w3schools.com) | **Adobe Color**      | [Adobe Color](https://color.adobe.com) | **Font Awesome**     | [Font Awesome](https://fontawesome.com) |
+| **CSS-Tricks**       | [CSS-Tricks](https://css-tricks.com) | **Material UI Colors** | [Material UI](https://mui.com/customization/color/) | **Font Squirrel**    | [Font Squirrel](https://www.fontsquirrel.com) |
+| **React Docs**       | [React Docs](https://reactjs.org/docs/getting-started.html) | **Color Hunt**       | [Color Hunt](https://colorhunt.co) | **DaFont**           | [DaFont](https://www.dafont.com) |
+| **Vue Docs**         | [Vue Docs](https://vuejs.org/v2/guide/) | **ColorBrewer**      | [ColorBrewer](https://colorbrewer2.org) | **Google Material Icons** | [Google Icons](https://material.io/resources/icons/) |
+| **Bootstrap Docs**   | [Bootstrap Docs](https://getbootstrap.com/docs/) | **Paletton**         | [Paletton](https://paletton.com) | **Typekit**          | [Typekit](https://typekit.com) |
+| **Tailwind Docs**    | [Tailwind Docs](https://tailwindcss.com/docs) | **HTML Color Codes** | [HTML Color Codes](https://htmlcolorcodes.com) | **Typewolf**         | [Typewolf](https://www.typewolf.com) |
+| **Sass Docs**        | [Sass Docs](https://sass-lang.com/documentation) | **Material UI Palette** | [Material UI Palette](https://material-ui.com/customization/palette/) | **Urban Fonts**      | [Urban Fonts](https://www.urbanfonts.com) |
+| **JQuery Docs**      | [JQuery Docs](https://jquery.com/) | **Palettes Generator** | [Palettes Generator](https://paletton.com) | **Flaticon**         | [Flaticon](https://www.flaticon.com) |
+| **Node.js Docs**     | [Node.js Docs](https://nodejs.org/en/docs/) | **ColorSpace**       | [ColorSpace](https://mycolor.space) | **Font Pair**        | [Font Pair](https://fontpair.co) |
 
-</div>
+### 🧩 UI Components | 📚 Libraries | 🚀 Tools
+| Website Name         | Link                       | Website Name         | Link                       | Website Name         | Link                       |
+|----------------------|----------------------------|----------------------|----------------------------|----------------------|----------------------------|
+| **Material UI**      | [Material UI](https://mui.com/) | **React**            | [React](https://reactjs.org/) | **VS Code**          | [VS Code](https://code.visualstudio.com) |
+| **Ant Design**       | [Ant Design](https://ant.design/) | **Vue**              | [Vue](https://vuejs.org/)    | **GitHub**           | [GitHub](https://github.com) |
+| **Chakra UI**        | [Chakra UI](https://chakra-ui.com/) | **Svelte**           | [Svelte](https://svelte.dev/) | **Figma**            | [Figma](https://www.figma.com) |
+| **Tailwind UI**      | [Tailwind UI](https://tailwindui.com/) | **Angular**          | [Angular](https://angular.io/) | **Webpack**          | [Webpack](https://webpack.js.org/) |
+| **Bootstrap**        | [Bootstrap](https://getbootstrap.com/) | **React Router**     | [React Router](https://reactrouter.com/) | **NPM**              | [NPM](https://www.npmjs.com/) |
+| **Bulma**            | [Bulma](https://bulma.io/) | **Redux**            | [Redux](https://redux.js.org/) | **Postman**          | [Postman](https://www.postman.com/) |
+| **Foundation**       | [Foundation](https://get.foundation/) | **Next.js**          | [Next.js](https://nextjs.org/) | **Docker**           | [Docker](https://www.docker.com/) |
+| **Semantic UI**      | [Semantic UI](https://semantic-ui.com/) | **Gatsby**           | [Gatsby](https://www.gatsbyjs.com/) | **Heroku**           | [Heroku](https://www.heroku.com/) |
+| **UIKit**            | [UIKit](https://getuikit.com/) | **Chart.js**         | [Chart.js](https://www.chartjs.org/) | **Netlify**          | [Netlify](https://www.netlify.com/) |
+| **Carbon Design**    | [Carbon Design](https://www.carbondesignsystem.com/) | **Three.js**         | [Three.js](https://threejs.org/) | **Vercel**           | [Vercel](https://vercel.com/) |
+
+### 📝 Blogging | 🖼️ Design | 🧑‍💼 Work to Explore
+| Website Name         | Link                       | Website Name         | Link                       | Website Name         | Link                       |
+|----------------------|----------------------------|----------------------|----------------------------|----------------------|----------------------------|
+| **Medium**           | [Medium](https://medium.com)  | **Dribbble**         | [Dribbble](https://dribbble.com) | **Awwwards**         | [Awwwards](https://www.awwwards.com) |
+| **WordPress**        | [WordPress](https://wordpress.com) | **Behance**          | [Behance](https://www.behance.net) | **LinkedIn**         | [LinkedIn](https://www.linkedin.com) |
+| **Blogger**          | [Blogger](https://www.blogger.com) | **Awwwards**         | [Awwwards](https://www.awwwards.com) | **AngelList**        | [AngelList](https://angel.co) |
+| **Ghost**            | [Ghost](https://ghost.org) | **Creative Market**  | [Creative Market](https://creativemarket.com) | **Indeed**           | [Indeed](https://www.indeed.com) |
+| **Jekyll**           | [Jekyll](https://jekyllrb.com) | **FontPair**         | [FontPair](https://fontpair.co) | **Glassdoor**        | [Glassdoor](https://www.glassdoor.com) |
+| **Hugo**             | [Hugo](https://gohugo.io) | **Adobe Spark**      | [Adobe Spark](https://spark.adobe.com) | **Behance**          | [Behance](https://www.behance.net) |
+| **Dev.to**           | [Dev.to](https://dev.to) | **Canva**            | [Canva](https://www.canva.com) | **GitHub Jobs**      | [GitHub Jobs](https://jobs.github.com) |
+| **Substack**         | [Substack](https://substack.com) | **Sketch**           | [Sketch](https://www.sketch.com) | **Remote OK**        | [Remote OK](https://remoteok.io) |
+| **Tumblr**           | [Tumblr](https://www.tumblr.com) | **InVision**         | [InVision](https://www.invisionapp.com) | **We Work Remotely** | [We Work Remotely](https://weworkremotely.com) |
+| **Ghostwriter**      | [Ghostwriter](https://ghostwriter.com) | **Figma**            | [Figma](https://www.figma.com) | **Upwork**           | [Upwork](https://www.upwork.com) |
+
+---
+
+✨ Enjoy Exploring! Feel free to visit any of these websites. They're great resources in their respective categories. Happy browsing! 🚀
