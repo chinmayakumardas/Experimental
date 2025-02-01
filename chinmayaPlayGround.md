@@ -1,181 +1,80 @@
-<style>
-  .category-row {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    margin-bottom: 40px;
-  }
-
-  .category-table {
-    width: 100%;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 2px solid #ccc;
-    transition: all 0.3s ease;
-  }
-
-  .category-table:hover {
-    transform: scale(1.05);
-  }
-
-  .category-table th,
-  .category-table td {
-    padding: 12px;
-    text-align: left;
-  }
-
-  .category-table th {
-    background-color: #0F0F0F;
-    color: #F9F7F4;
-  }
-
-  .category-table td {
-    background-color: #F9F7F4;
-    color: #0F0F0F;
-  }
-
-  .category-table a {
-    text-decoration: none;
-    color: #0066cc;
-    transition: color 0.3s ease;
-  }
-
-  .category-table a:hover {
-    color: #ff6600;
-  }
-
-  .category-heading {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 12px;
-    color: #0F0F0F;
-  }
-
-  .category-heading span {
-    margin-left: 10px;
-  }
-
-  .category-item {
-    background-color: #F9F7F4;
-    color: #0F0F0F;
-    padding: 12px;
-    border-radius: 8px;
-    border: 2px solid #ccc;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-  }
-
-  .category-item:hover {
-    background-color: #0F0F0F;
-    color: #F9F7F4;
-  }
-
-  .category-grid {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-  }
-
-  .category-item:focus {
-    outline: none;
-  }
-</style>
-
-<div class="category-grid">
-    <button class="category-item" onclick="window.location.href='#ui-components'">UI Components</button>
-    <button class="category-item" onclick="window.location.href='#documentation'">Documentation</button>
-    <button class="category-item" onclick="window.location.href='#social-profiles'">Social Profiles</button>
-    <button class="category-item" onclick="window.location.href='#color'">Color</button>
+<!-- Top heading with shortcut links -->
+<div style="text-align: center; margin-bottom: 30px;">
+  <h1 style="font-size: 36px; font-weight: bold; color: #0F0F0F;">Welcome to My Useful Links! 🌐</h1>
+  <div style="margin-bottom: 30px;">
+    <a href="#social-profiles" style="font-size: 18px; color: #0066cc; text-decoration: none; font-weight: bold;">Social Profiles</a> | 
+    <a href="#color" style="font-size: 18px; color: #0066cc; text-decoration: none; font-weight: bold;">Color</a>
+  </div>
 </div>
 
 <!-- Row with two categories: Social Profiles and Color -->
-<div class="category-row">
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+
   <!-- Social Profiles Section -->
-  <section id="social-profiles" class="category-table">
-      <h2 class="category-heading">🌐 Social Profiles <span>👥</span></h2>
-      <table>
+  <section id="social-profiles" style="flex: 1 1 45%; padding: 20px;">
+      <h2 style="font-size: 28px; font-weight: bold; color: #0F0F0F;">🌐 Social Profiles 👥</h2>
+      <table style="width: 100%; border-collapse: collapse; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
           <thead>
-              <tr>
-                  <th>Tool/Website Name</th>
-                  <th>Description</th>
-                  <th>Link</th>
+              <tr style="background-color: #F9F7F4;">
+                  <th style="padding: 10px; border: 1px solid #ddd;">Tool/Website Name</th>
+                  <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
+                  <th style="padding: 10px; border: 1px solid #ddd;">Link</th>
               </tr>
           </thead>
           <tbody>
               <tr>
-                  <td><strong><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></strong></td>
-                  <td>Professional network</td>
-                  <td><a href="https://www.linkedin.com/" target="_blank">Click here</a></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://www.linkedin.com/" target="_blank" style="text-decoration: none; color: #0066cc;">LinkedIn</a></strong></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Professional network</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://www.linkedin.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
               </tr>
               <tr>
-                  <td><strong><a href="https://github.com/" target="_blank">GitHub</a></strong></td>
-                  <td>Code repository</td>
-                  <td><a href="https://github.com/" target="_blank">Click here</a></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://github.com/" target="_blank" style="text-decoration: none; color: #0066cc;">GitHub</a></strong></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Code repository</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
               </tr>
               <tr>
-                  <td><strong><a href="https://twitter.com/" target="_blank">Twitter</a></strong></td>
-                  <td>Networking platform</td>
-                  <td><a href="https://twitter.com/" target="_blank">Click here</a></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://twitter.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Twitter</a></strong></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Networking platform</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://twitter.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
               </tr>
               <tr>
-                  <td><strong><a href="https://www.facebook.com/" target="_blank">Facebook</a></strong></td>
-                  <td>Social networking</td>
-                  <td><a href="https://www.facebook.com/" target="_blank">Click here</a></td>
-              </tr>
-              <tr>
-                  <td><strong><a href="https://www.instagram.com/" target="_blank">Instagram</a></strong></td>
-                  <td>Image sharing</td>
-                  <td><a href="https://www.instagram.com/" target="_blank">Click here</a></td>
-              </tr>
-              <tr>
-                  <td><strong><a href="https://www.reddit.com/" target="_blank">Reddit</a></strong></td>
-                  <td>Social news</td>
-                  <td><a href="https://www.reddit.com/" target="_blank">Click here</a></td>
-              </tr>
-              <tr>
-                  <td><strong><a href="https://www.quora.com/" target="_blank">Quora</a></strong></td>
-                  <td>Q&A platform</td>
-                  <td><a href="https://www.quora.com/" target="_blank">Click here</a></td>
-              </tr>
-              <tr>
-                  <td><strong><a href="https://www.pinterest.com/" target="_blank">Pinterest</a></strong></td>
-                  <td>Image board</td>
-                  <td><a href="https://www.pinterest.com/" target="_blank">Click here</a></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Facebook</a></strong></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Social networking</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
               </tr>
           </tbody>
       </table>
   </section>
 
   <!-- Color Section -->
-  <section id="color" class="category-table">
-      <h2 class="category-heading">🎨 Color <span>🌈</span></h2>
-      <table>
+  <section id="color" style="flex: 1 1 45%; padding: 20px;">
+      <h2 style="font-size: 28px; font-weight: bold; color: #0F0F0F;">🎨 Color 🌈</h2>
+      <table style="width: 100%; border-collapse: collapse; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
           <thead>
-              <tr>
-                  <th>Tool/Website Name</th>
-                  <th>Description</th>
-                  <th>Link</th>
+              <tr style="background-color: #F9F7F4;">
+                  <th style="padding: 10px; border: 1px solid #ddd;">Tool/Website Name</th>
+                  <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
+                  <th style="padding: 10px; border: 1px solid #ddd;">Link</th>
               </tr>
           </thead>
           <tbody>
               <tr>
-                  <td><strong><a href="https://coolors.co/" target="_blank">Coolors</a></strong></td>
-                  <td>Palette generator</td>
-                  <td><a href="https://coolors.co/" target="_blank">Click here</a></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://coolors.co/" target="_blank" style="text-decoration: none; color: #0066cc;">Coolors</a></strong></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Palette generator</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://coolors.co/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
               </tr>
               <tr>
-                  <td><strong><a href="https://colorhunt.co/" target="_blank">Color Hunt</a></strong></td>
-                  <td>Color palettes</td>
-                  <td><a href="https://colorhunt.co/" target="_blank">Click here</a></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://colorhunt.co/" target="_blank" style="text-decoration: none; color: #0066cc;">Color Hunt</a></strong></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Color palettes</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://colorhunt.co/" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
               </tr>
               <tr>
-                  <td><strong><a href="https://www.materialui.co/colors" target="_blank">Material UI Colors</a></strong></td>
-                  <td>Material design colors</td>
-                  <td><a href="https://www.materialui.co/colors" target="_blank">Click here</a></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><strong><a href="https://www.materialui.co/colors" target="_blank" style="text-decoration: none; color: #0066cc;">Material UI Colors</a></strong></td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Material design colors</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://www.materialui.co/colors" target="_blank" style="text-decoration: none; color: #0066cc;">Click here</a></td>
               </tr>
           </tbody>
       </table>
   </section>
+
 </div>
